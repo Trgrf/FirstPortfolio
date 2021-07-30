@@ -1,0 +1,31 @@
+.header{
+    padding: 20px;
+    background-color: tan;
+    color: #fff;
+}
+
+.header h1 {
+    display:inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    font-size: 20px;
+    margin-right: 25px;
+    float: right;
+    padding: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.me {
+    height: 500px;
+    width: 25%;
+    margin-bottom: 20px;
+    background-image: url("../images/3376.jpeg");
+    background-size: cover;
+    background-position:center;
+}
