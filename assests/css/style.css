@@ -28,4 +28,15 @@
     background-image: url("../images/3376.jpeg");
     background-size: cover;
     background-position:center;
+    min-width: 400px;
+}
+
+div {
+    display: wrap;
+}
+
+.contact{
+    display: inline;
+    margin: 0 auto;
+    padding: 20px;
 }
