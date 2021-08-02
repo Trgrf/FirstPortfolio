@@ -1,3 +1,8 @@
+body {
+    background-color: teal;
+    color: seashell;
+}
+
 .header{
     padding: 20px;
     background-color: tan;
