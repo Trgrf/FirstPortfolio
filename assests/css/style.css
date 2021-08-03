@@ -6,18 +6,17 @@ body {
 
 
  .header{
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: lavender;
     color: #fff;
-    display: flex;
 }
 
 .header nav {
-    display: flex;
-    justify-content: flex-end;
     font-size: 20px;
     padding: 20px;
-    width: 70%;
+    width: 60%;
 }
 
 .header h1 {
@@ -30,6 +29,7 @@ body {
 }
 .header nav ul {
     display: flex;
+    flex-wrap: wrap;
     float: right;
     margin: 25px;
     font-size: 30px;
@@ -51,6 +51,7 @@ body {
 }
 
 .right{
+    display: blocks;
     width: 70%;
     height: 100%;
     padding: 20px;
@@ -86,6 +87,12 @@ div h2{
 div p{
     font-size: 20px;
     padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.img{
+    float: left;
 }
 
 div a{
