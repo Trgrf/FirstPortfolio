@@ -106,3 +106,8 @@ footer{
   color: black;
   font-size: 20px;
 }
+
+img {
+    width: 75%;
+    height: 75%;
+}
